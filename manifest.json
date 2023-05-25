@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Shopify Admin App Web Vitals Logger",
+    "version": "1.0",
+    "permissions": [
+        "webNavigation",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Shopify Admin App Web Vitals Logger",
+        "default_icon": {
+            "16": "images/logo.png",
+            "48": "images/logo.png",
+            "128": "images/logo.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

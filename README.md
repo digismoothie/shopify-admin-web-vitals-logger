@@ -35,6 +35,8 @@ This guide explains how to install the extension in your browser in development 
 
 **Note:** Make sure the Shopify App Bridge is correctly installed and configured in your Shopify app, as this extension relies on the data provided by it.
 
+**Note:** CLS is reported only on visibilitychange event. You need to switch tabs or something like that in order to see the value.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
